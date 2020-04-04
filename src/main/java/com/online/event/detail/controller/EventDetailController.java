@@ -15,7 +15,6 @@ import com.online.event.detail.model.Event;
 import com.online.event.detail.service.EventDetailService;
 
 @Controller
-@CrossOrigin(origins = "http://localhost:3000")
 public class EventDetailController {
 	@Autowired
 	private EventDetailService eventDetailService;
