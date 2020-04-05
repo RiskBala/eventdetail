@@ -15,6 +15,7 @@ import com.online.event.detail.model.Event;
 import com.online.event.detail.service.EventDetailService;
 
 @Controller
+@CrossOrigin(origins = "http://outreach-ui-s2-travelsystem.apps.na311.openshift.open")
 public class EventDetailController {
 	@Autowired
 	private EventDetailService eventDetailService;
